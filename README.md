@@ -16,3 +16,4 @@ So, With this 3 days i completed first 15 days of 100 Days of SwiftUI. Till now 
 Day 4: Started learning basic structure of SwiftUI. i.e., Form, Navigation bar, state binding, views
 Day 5: Reading text from the user with TextField, Pickers, Segment control
 Day 6: wrapUp/revising above 2 days. Built check-splitting app. 
+Day 7: Done with first challenge(unit conversions)
