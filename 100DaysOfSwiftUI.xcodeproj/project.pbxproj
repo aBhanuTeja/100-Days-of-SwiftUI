@@ -14,6 +14,7 @@
 		493E6CC3247AD73A009B4FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493E6CC1247AD73A009B4FAD /* LaunchScreen.storyboard */; };
 		493E6CCD247AD75A009B4FAD /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E6CCB247AD75A009B4FAD /* ChallengeView.swift */; };
 		493E6CCE247AD75A009B4FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E6CCC247AD75A009B4FAD /* ContentView.swift */; };
+		49900771247CFB95003BDCB4 /* UnitConersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49900770247CFB95003BDCB4 /* UnitConersion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		493E6CC4247AD73A009B4FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493E6CCB247AD75A009B4FAD /* ChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		493E6CCC247AD75A009B4FAD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49900770247CFB95003BDCB4 /* UnitConersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConersion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				493E6CB6247AD734009B4FAD /* AppDelegate.swift */,
 				493E6CB8247AD734009B4FAD /* SceneDelegate.swift */,
+				4990076F247CFB5E003BDCB4 /* Unit Conversion */,
 				493E6CCA247AD75A009B4FAD /* We Split */,
 				493E6CBC247AD73A009B4FAD /* Assets.xcassets */,
 				493E6CC1247AD73A009B4FAD /* LaunchScreen.storyboard */,
@@ -84,6 +87,14 @@
 				493E6CCC247AD75A009B4FAD /* ContentView.swift */,
 			);
 			path = "We Split";
+			sourceTree = "<group>";
+		};
+		4990076F247CFB5E003BDCB4 /* Unit Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				49900770247CFB95003BDCB4 /* UnitConersion.swift */,
+			);
+			path = "Unit Conversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				493E6CCD247AD75A009B4FAD /* ChallengeView.swift in Sources */,
+				49900771247CFB95003BDCB4 /* UnitConersion.swift in Sources */,
 				493E6CCE247AD75A009B4FAD /* ContentView.swift in Sources */,
 				493E6CB7247AD734009B4FAD /* AppDelegate.swift in Sources */,
 				493E6CB9247AD734009B4FAD /* SceneDelegate.swift in Sources */,
