@@ -22,3 +22,5 @@ Day 5: Reading text from the user with TextField, Pickers, Segment control
 Day 6: wrapUp/revising above 2 days. Built check-splitting app.
 
 Day 7: Done with first challenge(unit conversions)
+
+Day 8, Day 9, Day 10: Learned about Alert, Gradient, Buttons, Images. Done with "Guess the flag". Also done with the challenge
