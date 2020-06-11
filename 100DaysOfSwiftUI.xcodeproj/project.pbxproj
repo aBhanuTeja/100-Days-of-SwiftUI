@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4911ACA32483E15C001D7B08 /* ViewsAndModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911ACA22483E15C001D7B08 /* ViewsAndModifiers.swift */; };
 		493E6CB7247AD734009B4FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E6CB6247AD734009B4FAD /* AppDelegate.swift */; };
 		493E6CB9247AD734009B4FAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493E6CB8247AD734009B4FAD /* SceneDelegate.swift */; };
 		493E6CBD247AD73A009B4FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493E6CBC247AD73A009B4FAD /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4911ACA22483E15C001D7B08 /* ViewsAndModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiers.swift; sourceTree = "<group>"; };
 		493E6CB3247AD734009B4FAD /* 100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493E6CB6247AD734009B4FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493E6CB8247AD734009B4FAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4911ACA12483D4E0001D7B08 /* Views and Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				4911ACA22483E15C001D7B08 /* ViewsAndModifiers.swift */,
+			);
+			path = "Views and Modifiers";
+			sourceTree = "<group>";
+		};
 		493E6CAA247AD734009B4FAD = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 			children = (
 				493E6CB6247AD734009B4FAD /* AppDelegate.swift */,
 				493E6CB8247AD734009B4FAD /* SceneDelegate.swift */,
+				4911ACA12483D4E0001D7B08 /* Views and Modifiers */,
 				49900772247D4BD6003BDCB4 /* Guess the flag */,
 				4990076F247CFB5E003BDCB4 /* Unit Conversion */,
 				493E6CCA247AD75A009B4FAD /* We Split */,
@@ -182,6 +193,7 @@
 				493E6CCD247AD75A009B4FAD /* ChallengeView.swift in Sources */,
 				49900771247CFB95003BDCB4 /* UnitConersion.swift in Sources */,
 				493E6CCE247AD75A009B4FAD /* ContentView.swift in Sources */,
+				4911ACA32483E15C001D7B08 /* ViewsAndModifiers.swift in Sources */,
 				49900774247D4C06003BDCB4 /* GuessTheFlag.swift in Sources */,
 				493E6CB7247AD734009B4FAD /* AppDelegate.swift in Sources */,
 				493E6CB9247AD734009B4FAD /* SceneDelegate.swift in Sources */,

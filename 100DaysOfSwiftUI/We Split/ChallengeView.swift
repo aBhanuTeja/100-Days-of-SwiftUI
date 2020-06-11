@@ -33,7 +33,8 @@ struct ChallengeView: View {
             Form{
                 Section{
                     TextField("Enter total amount", text: $enteredText)
-                        .keyboardType(.decimalPad)
+                        .ChallengeViewTitleStyle()
+                        .foregroundColor(enteredText == "0" ? Color.red : Color.primary)
                 }
 
                 Section{
@@ -60,6 +61,19 @@ struct ChallengeView: View {
             }
             .navigationBarTitle("We Split challenge", displayMode: .automatic)
         }
+    }
+}
+
+struct ChallengeViewTitle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .keyboardType(.decimalPad)
+    }
+}
+
+extension View {
+    func ChallengeViewTitleStyle() -> some View {
+        self.modifier(ChallengeViewTitle())
     }
 }
 
