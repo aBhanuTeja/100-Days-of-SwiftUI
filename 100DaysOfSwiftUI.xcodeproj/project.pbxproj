@@ -75,9 +75,9 @@
 				493E6CB6247AD734009B4FAD /* AppDelegate.swift */,
 				493E6CB8247AD734009B4FAD /* SceneDelegate.swift */,
 				4911ACA12483D4E0001D7B08 /* Views and Modifiers */,
-				49900772247D4BD6003BDCB4 /* Guess the flag */,
+				49900772247D4BD6003BDCB4 /* Project-2 Guess the flag */,
 				4990076F247CFB5E003BDCB4 /* Unit Conversion */,
-				493E6CCA247AD75A009B4FAD /* We Split */,
+				493E6CCA247AD75A009B4FAD /* Project-1 We Split */,
 				493E6CBC247AD73A009B4FAD /* Assets.xcassets */,
 				493E6CC1247AD73A009B4FAD /* LaunchScreen.storyboard */,
 				493E6CC4247AD73A009B4FAD /* Info.plist */,
@@ -94,13 +94,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		493E6CCA247AD75A009B4FAD /* We Split */ = {
+		493E6CCA247AD75A009B4FAD /* Project-1 We Split */ = {
 			isa = PBXGroup;
 			children = (
 				493E6CCB247AD75A009B4FAD /* ChallengeView.swift */,
 				493E6CCC247AD75A009B4FAD /* ContentView.swift */,
 			);
-			path = "We Split";
+			path = "Project-1 We Split";
 			sourceTree = "<group>";
 		};
 		4990076F247CFB5E003BDCB4 /* Unit Conversion */ = {
@@ -111,12 +111,12 @@
 			path = "Unit Conversion";
 			sourceTree = "<group>";
 		};
-		49900772247D4BD6003BDCB4 /* Guess the flag */ = {
+		49900772247D4BD6003BDCB4 /* Project-2 Guess the flag */ = {
 			isa = PBXGroup;
 			children = (
 				49900773247D4C06003BDCB4 /* GuessTheFlag.swift */,
 			);
-			path = "Guess the flag";
+			path = "Project-2 Guess the flag";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
